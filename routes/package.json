@@ -1,5 +1,8 @@
 {
   "devDependencies": {
     "umi-plugin-routes": "^0.1.2"
+  },
+  "dependencies": {
+    "react-transition-group": "^2.3.1"
   }
 }
