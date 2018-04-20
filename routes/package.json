@@ -3,6 +3,7 @@
     "umi-plugin-routes": "^0.1.2"
   },
   "dependencies": {
+    "react-router-breadcrumbs-hoc": "^2.1.0",
     "react-transition-group": "^2.3.1"
   }
 }
