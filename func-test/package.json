@@ -1,6 +1,7 @@
 {
   "dependencies": {
-    "react-intl": "^2.4.0"
+    "react-intl": "^2.4.0",
+    "umi-plugin-dll": "*"
   },
   "devDependencies": {
     "babel-plugin-module-resolver": "^3.1.0"
