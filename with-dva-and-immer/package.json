@@ -1,4 +1,8 @@
 {
+  "scripts": {
+    "start": "umi dev",
+    "build": "umi build"
+  },
   "dependencies": {
     "umi": "*",
     "umi-plugin-dva": "*"
