@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "get-value": "^3.0.1",
+    "query-string": "^6.0.0"
+  },
+  "devDependencies": {
+    "umi": "*"
+  }
+}
