@@ -1,7 +1,5 @@
 {
   "dependencies": {
-    "get-value": "^3.0.1",
-    "gl-matrix": "^2.5.1",
     "query-string": "^6.0.0"
   },
   "devDependencies": {
