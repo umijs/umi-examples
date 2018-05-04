@@ -1,6 +1,6 @@
 
 export default {
   exportStatic: {
-    htmlSuffix: true,
+    // htmlSuffix: true,
   },
 }
