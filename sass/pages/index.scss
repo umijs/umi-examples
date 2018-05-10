@@ -1,0 +1,12 @@
+.container {
+    color: #F90;
+    p {
+        color: red;
+    }
+}
+.exc{
+    @extend .container;
+    p{
+        color: blue;
+    }
+}
