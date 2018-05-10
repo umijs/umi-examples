@@ -1,0 +1,11 @@
+{
+  "scripts": {
+    "start": "umi dev"
+  },
+  "devDependencies": {
+    "umi": "*"
+  },
+  "dependencies": {
+    "umi-plugin-dva": "^0.6.3"
+  }
+}

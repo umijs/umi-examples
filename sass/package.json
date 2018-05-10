@@ -1,0 +1,10 @@
+{
+  "scripts": {
+    "start": "umi dev"
+  },
+  "dependencies": {
+    "node-sass": "^4.9.0",
+    "sass-loader": "^7.0.1",
+    "umi": "^1.2.6"
+  }
+}
