@@ -40,7 +40,10 @@ describe('test/discover-page.test.js', () => {
     it('page landing', () => {
       return driver
         .getUrl(`${BASE_URL}/discover.html`)
-        .sleep(3000);
+        .source()
+        .then(html => {
+          assert.ok(html.includes('首页'));
+        });
     });
   });
 });

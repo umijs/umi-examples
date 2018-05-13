@@ -8,7 +8,7 @@
     "dev:test": "cross-env PORT=9090 WATCH_FILES=none BROWSER=none CLEAR_CONSOLE=none COMPILE_ON_DEMAND=none COVERAGE=true umi dev",
     "build": "umi build",
     "test": "macaca run -d ./test",
-    "serve": "npm run start:dev &",
+    "serve": "npm run dev:test &",
     "ci": "npm run serve && npm test"
   },
   "author": "zhang740@vmzclub.com",
