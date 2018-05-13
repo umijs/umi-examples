@@ -11,6 +11,10 @@ export default {
       component: 'b',
     },
     {
+      path: '/redirect',
+      redirect: '/users/guanguan',
+    },
+    {
       path: '/users/:name',
       exact: true,
       component: 'c',

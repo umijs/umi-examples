@@ -10,6 +10,9 @@ export default function() {
           <Link to="/list">go to /list</Link>
         </li>
         <li>
+          <Link to="/redirect">go to /redirect</Link>
+        </li>
+        <li>
           <Link to="/users/chencheng">go to /users/chencheng</Link>
         </li>
       </ul>
