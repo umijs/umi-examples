@@ -4,10 +4,11 @@ import { Button } from 'antd-mobile';
 function Count({ dispatch, count }) {
   return (
     <div>
-      <div>Count: {count}</div>
+      <div accessbilityId="count">Count: {count}</div>
       <br />
       <div>
         <Button
+          accessbilityId="increase"
           type="primary"
           onClick={() => {
             dispatch({ type: 'count/increase' });
@@ -16,6 +17,7 @@ function Count({ dispatch, count }) {
           Increase
         </Button>
         <Button
+          accessbilityId="decrease"
           type="ghost"
           onClick={() => {
             dispatch({ type: 'count/decrease' });

@@ -1,11 +1,5 @@
 import { routerRedux } from 'dva/router';
 
-function delay(ms) {
-  return new Promise(resolve => {
-    setTimeout(resolve, ms);
-  });
-}
-
 export default {
   namespace: 'global',
   state: {
@@ -16,7 +10,7 @@ export default {
     setText(state) {
       return {
         ...state,
-        text: 'setted',
+        text: 'setted dva',
       };
     },
     signin(state) {
