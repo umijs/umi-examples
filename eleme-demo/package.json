@@ -9,6 +9,7 @@
     "build": "umi build",
     "test": "macaca run -d ./test",
     "serve": "npm run dev:test &",
+    "lint": "eslint pages",
     "ci": "npm run serve && npm test"
   },
   "author": "zhang740@vmzclub.com",
