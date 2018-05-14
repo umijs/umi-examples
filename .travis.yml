@@ -4,6 +4,7 @@ node_js:
   - 8
 env:
   - DIST_DIR=eleme-demo
+  - DIST_DIR=with-redux
 matrix:
   fast_finish: true
 addons:
