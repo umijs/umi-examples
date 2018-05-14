@@ -1,3 +1,5 @@
+import { resolve } from 'path';
+
 export default {
   pages: {
     '/': { context: { title: '首页' } },
@@ -19,4 +21,13 @@ export default {
   disableDynamicImport: true,
   disableFastClick: true,
   outputPath: './www',
+  alias: {
+    common: resolve(__dirname, 'common'),
+  },
+  manifest: {
+    basePath: '/app/',
+  },
+  theme: {
+    'brand-primary': '#7546c9',
+  },
 };
