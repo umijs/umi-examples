@@ -3,3 +3,5 @@ dist
 package-lock.json
 func-test/www
 .umi
+*.sw*
+*.un~
