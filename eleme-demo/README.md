@@ -10,6 +10,13 @@
 [coveralls-image]: https://img.shields.io/coveralls/umijs/umi-examples.svg?style=flat-square
 [coveralls-url]: https://coveralls.io/r/umijs/umi-examples?branch=master
 
+## Thanks To
+
+- use [antd-mobile](//github.com/ant-design/ant-design-mobile) for UI manager.
+- use `umi/router` for SPA route manager.
+- use [Macaca](//macacajs.github.io) for UI E2E testing.
+- use [DataHub](//github.com/macacajs/macaca-datahub) for mock tool and proxy service.
+
 ## Dev
 
 ```bash
