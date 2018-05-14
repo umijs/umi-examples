@@ -15,6 +15,7 @@ function App(props) {
       <Count />
       <br />
       <Button
+        accessbilityId="set-title"
         onClick={() => {
           props.dispatch({
             type: 'global/setText',

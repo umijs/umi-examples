@@ -13,7 +13,7 @@ const {
 
 // API Document: https://macacajs.github.io/macaca-wd/
 
-describe('test/discover-page.test.js', () => {
+describe('test/index-page.test.js', () => {
   describe('page func testing', () => {
     before(() => {
       return driver

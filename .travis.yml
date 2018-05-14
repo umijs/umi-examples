@@ -5,6 +5,7 @@ node_js:
 env:
   - DIST_DIR=eleme-demo
   - DIST_DIR=with-redux
+  - DIST_DIR=with-dva
 matrix:
   fast_finish: true
 addons:
