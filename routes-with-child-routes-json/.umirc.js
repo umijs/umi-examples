@@ -9,8 +9,8 @@ export default {
         ],
         update(routes) {
           return [
-            ...routes,
             ...(require('./pages/site/_routes')),
+            ...routes,
           ];
         },
       },
