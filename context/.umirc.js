@@ -3,5 +3,5 @@ export default {
     '/': { context: { title: 'IndexPage' } },
     '/list':  { context: { title: 'ListPage' } },
   },
-  exportStatic: true,
+  exportStatic: {},
 };
