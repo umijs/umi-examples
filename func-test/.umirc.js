@@ -18,7 +18,7 @@ export default {
   exportStatic: {
     // htmlSuffix: true,
   },
-  disableDynamicImport: true,
+  // disableDynamicImport: true,
   disableFastClick: true,
   outputPath: './www',
   alias: {
