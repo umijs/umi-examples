@@ -1,7 +1,7 @@
 [
   {
     "path": "/site/b",
-    "exact": "true",
+    "exact": true,
     "component": "./pages/site/a"
   }
 ]

@@ -1,0 +1,17 @@
+[
+  {
+    "path": "/redirect",
+    "exact": true,
+    "redirect":"/site/b"
+  },
+  {
+    "path": "/redirect/a",
+    "exact": true,
+    "component": "./pages/redirect/a"
+  },
+  {
+    "path": "/redirect/b",
+    "exact": true,
+    "component": "./pages/redirect/b"
+  }
+]
