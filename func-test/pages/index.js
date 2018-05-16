@@ -10,7 +10,7 @@ export default function() {
       <h1>Index Page</h1>
       <FormattedDate value={Date.now()} />
       <div>
-        <img src={require('../assets/umi.png')} />
+        <img src={require('../assets/umi.png')} width="200" />
       </div>
       <ul>
         <li>
