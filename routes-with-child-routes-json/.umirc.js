@@ -11,7 +11,7 @@ export default {
           return [
             ...(require('./pages/site/_routes')),
             ...(require('./pages/redirect/_routes')),
-            ...routes,
+            ...routes
           ];
         },
       },
