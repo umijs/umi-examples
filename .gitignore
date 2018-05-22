@@ -5,3 +5,5 @@ func-test/www
 .umi
 *.sw*
 *.un~
+config.local.js
+

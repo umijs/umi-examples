@@ -22,7 +22,7 @@ export default {
   disableFastClick: true,
   outputPath: './www',
   alias: {
-    common: resolve(__dirname, 'common'),
+    common: resolve(__dirname, '../common'),
   },
   manifest: {
     basePath: '/app/',
