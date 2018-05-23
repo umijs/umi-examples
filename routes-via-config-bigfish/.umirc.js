@@ -1,5 +1,8 @@
 export default {
   exportStatic: false,
+  plugins: [
+    'umi-plugin-dva',
+  ],
   routes: [
     {
       path: '/',
