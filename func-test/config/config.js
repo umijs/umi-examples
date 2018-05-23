@@ -20,6 +20,7 @@ export default {
   },
   // disableDynamicImport: true,
   disableFastClick: true,
+  disableHash: true,
   outputPath: './www',
   alias: {
     common: resolve(__dirname, '../common'),
