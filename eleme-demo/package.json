@@ -33,7 +33,7 @@
     "eslint-plugin-react": "^7.6.1",
     "macaca-cli": "^2.1.2",
     "macaca-datahub": "^1.0.50",
-    "macaca-electron": "^1.1.19",
+    "macaca-electron": "2",
     "macaca-wd": "*",
     "umi": "^1.2.6",
     "umi-plugin-datahub": "^0.1.1"

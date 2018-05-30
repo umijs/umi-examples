@@ -21,7 +21,7 @@
     "cross-env": "^5.1.4",
     "macaca-cli": "^2.1.2",
     "macaca-datahub": "^1.0.50",
-    "macaca-electron": "^1.1.19",
+    "macaca-electron": "2",
     "macaca-wd": "*"
   }
 }
