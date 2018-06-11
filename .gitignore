@@ -6,4 +6,5 @@ func-test/www
 *.sw*
 *.un~
 config.local.js
+yarn.lock
 

@@ -11,8 +11,8 @@
   },
   "dependencies": {
     "antd-mobile": "^2.1.1",
-    "dva": "^2.1.0",
-    "umi": "^1.0.0-0",
-    "umi-plugin-dva": "^0.1.3"
+    "dva": "^2.3.0",
+    "umi": "*",
+    "umi-plugin-dva": "*"
   }
 }
