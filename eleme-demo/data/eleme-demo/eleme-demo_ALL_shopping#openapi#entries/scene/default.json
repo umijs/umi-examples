@@ -1,0 +1,179 @@
+{
+  "sceneName": "default",
+  "data": [
+    {
+      "entries": [
+        {
+          "business_flag": 1,
+          "description": "美食",
+          "id": 20004689,
+          "image_hash": "7d8a867c870b22bc74c87c348b75528djpeg",
+          "is_in_serving": true,
+          "is_personalized": false,
+          "link": "eleme://restaurants?search_source=1&activity_id=10016665&target=%7B%22delivery_mode%22%3A%5B%5D%2C%22category_schema%22%3A%7B%22complex_category_ids%22%3A%5B209%2C212%2C213%2C214%2C215%2C216%2C217%2C219%2C265%2C266%2C267%2C268%2C269%2C221%2C222%2C223%2C224%2C225%2C226%2C227%2C228%2C231%2C232%2C263%2C218%2C234%2C235%2C236%2C237%2C238%2C211%2C229%2C230%2C264%5D%7D%2C%22restaurant_category_id%22%3A%5B209%2C212%2C213%2C214%2C215%2C216%2C217%2C219%2C265%2C266%2C267%2C268%2C269%2C221%2C222%2C223%2C224%2C225%2C226%2C227%2C228%2C231%2C232%2C263%2C218%2C234%2C235%2C236%2C237%2C238%2C211%2C229%2C230%2C264%5D%7D&navType=0&color_type=1&target_name=%E7%BE%8E%E9%A3%9F&entry_id=20004689&page_type=2&business_flag=1&animation_type=1",
+          "more": "{\"tags\":null}",
+          "name": "美食",
+          "name_color": "",
+          "position": 1
+        },
+        {
+          "business_flag": 0,
+          "description": "",
+          "id": 20033905,
+          "image_hash": "c3c0184f5b3fa72f295fc01864734218jpeg",
+          "is_in_serving": true,
+          "is_personalized": false,
+          "link": "eleme://offline?navColor=&title=&navType=0&target_name=&pluginId=bdwm.plugin.newretail&url=https%3A%2F%2Fh5-newretail.faas.ele.me%2Fstatic%2Fh5_newretail%2Fpages%2Fchannel.html%3Fchannel%3Dsupermarket&animation_type=1&pageName=channel&pageData=%7B%22channel%22%3A%22supermarket%22%7D",
+          "more": "{\"tags\":null}",
+          "name": "商超便利",
+          "name_color": "",
+          "position": 3
+        },
+        {
+          "business_flag": 10,
+          "description": "",
+          "id": 20008089,
+          "image_hash": "ce98b589472823fa97666cef19af644cjpeg",
+          "is_in_serving": true,
+          "is_personalized": false,
+          "link": "eleme://restaurants?search_source=1&activity_id=10020665&target=%7B%22delivery_mode%22%3A%5B%5D%2C%22category_schema%22%3A%7B%22complex_category_ids%22%3A%5B209%2C212%2C213%2C214%2C215%2C216%2C217%2C219%2C265%2C267%2C268%2C269%2C221%2C222%2C223%2C224%2C225%2C226%2C227%2C228%2C231%2C232%2C263%2C218%2C234%2C235%2C236%2C237%2C240%2C241%2C242%2C211%2C229%2C230%2C264%5D%7D%2C%22restaurant_category_id%22%3A%5B209%2C212%2C213%2C214%2C215%2C216%2C217%2C219%2C265%2C267%2C268%2C269%2C221%2C222%2C223%2C224%2C225%2C226%2C227%2C228%2C231%2C232%2C263%2C218%2C234%2C235%2C236%2C237%2C240%2C241%2C242%2C211%2C229%2C230%2C264%5D%7D&navType=0&color_type=1&target_name=%E5%8D%88%E9%A4%90&entry_id=20008089&page_type=2&business_flag=10&animation_type=1",
+          "more": "{\"tags\":null}",
+          "name": "午餐",
+          "name_color": "",
+          "position": 2
+        },
+        {
+          "business_flag": 0,
+          "description": "",
+          "id": 20033897,
+          "image_hash": "cdbd20d49e5029281b9b73db1c5ec6f9jpeg",
+          "is_in_serving": true,
+          "is_personalized": false,
+          "link": "eleme://offline?navColor=&title=&navType=0&target_name=&pluginId=bdwm.plugin.newretail&url=https%3A%2F%2Fh5-newretail.faas.ele.me%2Fstatic%2Fh5_newretail%2Fpages%2Fchannel.html%3Fchannel%3Dfresh&animation_type=1&pageName=channel&pageData=%7B%22channel%22%3A%22fresh%22%7D",
+          "more": "{\"tags\":null}",
+          "name": "果蔬生鲜",
+          "name_color": "",
+          "position": 4
+        },
+        {
+          "business_flag": 0,
+          "description": "",
+          "id": 20033889,
+          "image_hash": "70aaf108e256ebc9f02db599592ae655jpeg",
+          "is_in_serving": true,
+          "is_personalized": false,
+          "link": "eleme://offline?navColor=&title=&navType=0&target_name=&pluginId=bdwm.plugin.newretail&url=https%3A%2F%2Fh5-newretail.faas.ele.me%2Fstatic%2Fh5_newretail%2Fpages%2Fchannel.html%3Fchannel%3Dhealth&animation_type=1&pageName=channel&pageData=%7B%22channel%22%3A%22health%22%7D",
+          "more": "{\"tags\":null}",
+          "name": "医药健康",
+          "name_color": "",
+          "position": 10
+        },
+        {
+          "business_flag": 23,
+          "description": "",
+          "id": 20006761,
+          "image_hash": "a7bb02bd836411c016935d258b300cfejpeg",
+          "is_in_serving": true,
+          "is_personalized": false,
+          "link": "eleme://restaurants?search_source=1&activity_id=10038169&target=%7B%22is_premium%22%3A1%2C%22specified_attributes%22%3A%5B8%5D%2C%22support_ids%22%3A%5B8%5D%7D&navType=0&color_type=2&target_name=%E5%A4%A7%E7%89%8C5%E6%8A%98&banner_type=0&entry_id=20006761&page_type=2&business_flag=23&animation_type=1",
+          "more": "{\"tags\":null}",
+          "name": "大牌5折",
+          "name_color": "",
+          "position": 7
+        },
+        {
+          "business_flag": 0,
+          "description": "",
+          "id": 20033881,
+          "image_hash": "301c888acb2c8ba9e0c813f36ec9e90ajpeg",
+          "is_in_serving": true,
+          "is_personalized": false,
+          "link": "eleme://offline?navColor=&title=&navType=0&target_name=&pluginId=bdwm.plugin.newretail&url=https%3A%2F%2Fh5-newretail.faas.ele.me%2Fstatic%2Fh5_newretail%2Fpages%2Fchannel.html%3Fchannel%3Dflower&animation_type=1&pageName=channel&pageData=%7B%22channel%22%3A%22flower%22%7D",
+          "more": "{\"tags\":null}",
+          "name": "浪漫鲜花",
+          "name_color": "",
+          "position": 12
+        },
+        {
+          "business_flag": 0,
+          "description": "",
+          "id": 20008537,
+          "image_hash": "ec7b7ba9547aa700bd20d0420e1794a8jpeg",
+          "is_in_serving": true,
+          "is_personalized": false,
+          "link": "eleme://restaurants?search_source=1&activity_id=10021297&target=%7B%22delivery_mode%22%3A%5B%5D%2C%22category_schema%22%3A%7B%22complex_category_ids%22%3A%5B214%5D%7D%2C%22restaurant_category_id%22%3A%5B214%5D%7D&navType=0&color_type=1&target_name=%E9%BA%BB%E8%BE%A3%E7%83%AB&entry_id=20008537&page_type=1&business_flag=0&animation_type=1",
+          "more": "{\"tags\":null}",
+          "name": "麻辣烫",
+          "name_color": "",
+          "position": 22
+        },
+        {
+          "business_flag": 0,
+          "description": "",
+          "id": 20008521,
+          "image_hash": "a8aec21096d528b7cfd23cdd894f01c6jpeg",
+          "is_in_serving": true,
+          "is_personalized": false,
+          "link": "eleme://restaurants?search_source=1&activity_id=10021281&target=%7B%22delivery_mode%22%3A%5B%5D%2C%22category_schema%22%3A%7B%22complex_category_ids%22%3A%5B221%2C222%2C223%2C224%2C225%2C226%2C227%2C228%2C231%2C232%2C263%5D%7D%2C%22restaurant_category_id%22%3A%5B221%2C222%2C223%2C224%2C225%2C226%2C227%2C228%2C231%2C232%2C263%5D%7D&navType=0&color_type=1&target_name=%E5%9C%B0%E6%96%B9%E8%8F%9C%E7%B3%BB&entry_id=20008521&page_type=1&business_flag=0&animation_type=1",
+          "more": "{\"tags\":null}",
+          "name": "地方菜系",
+          "name_color": "",
+          "position": 20
+        },
+        {
+          "business_flag": 0,
+          "description": "",
+          "id": 20008529,
+          "image_hash": "7b6235761e50d391445f021922b71789jpeg",
+          "is_in_serving": true,
+          "is_personalized": false,
+          "link": "eleme://restaurants?search_source=1&activity_id=10021289&target=%7B%22delivery_mode%22%3A%5B%5D%2C%22category_schema%22%3A%7B%22complex_category_ids%22%3A%5B211%5D%7D%2C%22restaurant_category_id%22%3A%5B211%5D%7D&navType=0&color_type=1&target_name=%E6%8A%AB%E8%90%A8%E6%84%8F%E9%9D%A2&entry_id=20008529&page_type=1&business_flag=0&animation_type=1",
+          "more": "{\"tags\":null}",
+          "name": "披萨意面",
+          "name_color": "",
+          "position": 13
+        },
+        {
+          "business_flag": 0,
+          "description": "",
+          "id": 20008569,
+          "image_hash": "7d66f2631288a44ec177204e05cbcb93jpeg",
+          "is_in_serving": true,
+          "is_personalized": false,
+          "link": "eleme://restaurants?search_source=1&activity_id=10021705&target=%7B%22delivery_mode%22%3A%5B%5D%2C%22category_schema%22%3A%7B%22complex_category_ids%22%3A%5B234%2C235%2C237%5D%7D%2C%22restaurant_category_id%22%3A%5B234%2C235%2C237%5D%7D&navType=0&color_type=1&target_name=%E5%9C%B0%E6%96%B9%E5%B0%8F%E5%90%83&entry_id=20008569&page_type=1&business_flag=0&animation_type=1",
+          "more": "{\"tags\":null}",
+          "name": "地方小吃",
+          "name_color": "",
+          "position": 25
+        }
+      ],
+      "group_name": "main",
+      "group_type": 1,
+      "ranking_weight": 0,
+      "template": "main_template"
+    },
+    {
+      "entries": [
+        {
+          "business_flag": 13,
+          "description": "超值美味 9.9元起",
+          "id": 20069489,
+          "image_hash": "39dfc68cebc503835785136ac84861c7jpeg",
+          "is_in_serving": true,
+          "is_personalized": false,
+          "link": "eleme://web?navColor=3a3a3a&target_name=%E9%99%90%E9%87%8F%E6%8A%A2%E8%B4%AD&url=https%3A%2F%2Fh5.ele.me%2Fsales%2F%3Factivity_ids%3D%255B10089905%255D&title=%E9%99%90%E9%87%8F%E6%8A%A2%E8%B4%AD&navType=0&animation_type=1",
+          "more": "{\"third_title\":\"\",\"tags\":null,\"third_title_color\":\"\",\"population\":7650}",
+          "name": "限量抢购",
+          "name_color": "",
+          "position": 1
+        }
+      ],
+      "group_name": "优惠专区类型",
+      "group_type": 11,
+      "ranking_weight": 0,
+      "template": "favourable_template"
+    }
+  ],
+  "interfaceUniqId": "c523b57d-ab1c-4279-82b0-923c41c2260b",
+  "uniqId": "2fe837e3-7dc8-48ce-a327-2ba8f3e6ae1d"
+}
