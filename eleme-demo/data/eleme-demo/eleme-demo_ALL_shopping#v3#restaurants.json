@@ -1,0 +1,13 @@
+{
+  "protocol": "http",
+  "pathname": "shopping/v3/restaurants",
+  "method": "ALL",
+  "projectUniqId": "465abd05-3d89-466f-9954-98483a8d4988",
+  "description": "restaurants version3",
+  "currentScene": "default",
+  "proxyConfig": {
+    "proxyList": []
+  },
+  "contextConfig": {},
+  "uniqId": "a495e30a-52b2-4fd2-8d83-caa47dc48092"
+}

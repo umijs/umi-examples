@@ -1,0 +1,13 @@
+{
+  "protocol": "http",
+  "pathname": "bgs/poi/reverse_geo_coding",
+  "method": "ALL",
+  "projectUniqId": "465abd05-3d89-466f-9954-98483a8d4988",
+  "description": "get geo code",
+  "currentScene": "default",
+  "proxyConfig": {
+    "proxyList": []
+  },
+  "contextConfig": {},
+  "uniqId": "60b7e35a-3e29-4401-a73e-1d6a282d1b1d"
+}
