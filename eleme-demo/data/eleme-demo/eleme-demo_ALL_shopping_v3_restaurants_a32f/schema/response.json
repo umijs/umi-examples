@@ -1,0 +1,18 @@
+{
+  "type": "response",
+  "data": {
+    "schemaData": {
+      "type": "object",
+      "required": [
+        "items"
+      ],
+      "properties": {
+        "items": {
+          "type": "array"
+        }
+      }
+    }
+  },
+  "interfaceUniqId": "a32fd376-2fa0-42b9-8257-ee5d89e3362c",
+  "uniqId": "060787aa-a325-4bde-a2af-371f6a37490b"
+}

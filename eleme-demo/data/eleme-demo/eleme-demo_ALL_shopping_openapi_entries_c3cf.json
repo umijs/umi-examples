@@ -1,0 +1,13 @@
+{
+  "protocol": "http",
+  "pathname": "shopping/openapi/entries",
+  "method": "ALL",
+  "projectUniqId": "3176434b-e9ff-4c2b-aae9-d70ceae6704a",
+  "description": "entries",
+  "currentScene": "default",
+  "proxyConfig": {
+    "proxyList": []
+  },
+  "contextConfig": {},
+  "uniqId": "c3cf3dc3-4b3f-481a-9615-d55e928f0632"
+}

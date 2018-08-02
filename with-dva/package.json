@@ -20,7 +20,7 @@
     "chai": "^4.1.2",
     "cross-env": "^5.1.4",
     "macaca-cli": "^2.1.2",
-    "macaca-datahub": "^1.0.50",
+    "macaca-datahub": "2",
     "macaca-electron": "2",
     "macaca-wd": "*"
   }
