@@ -36,6 +36,6 @@
     "macaca-electron": "2",
     "macaca-wd": "*",
     "umi": "^1.2.6",
-    "umi-plugin-datahub": "^0.1.1"
+    "umi-plugin-datahub": "2"
   }
 }
