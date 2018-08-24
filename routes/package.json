@@ -1,6 +1,6 @@
 {
   "devDependencies": {
-    "umi-plugin-routes": "^0.1.2"
+    "umi-plugin-react": "^1.0.0-0"
   },
   "dependencies": {
     "react-router-breadcrumbs-hoc": "^2.1.0",

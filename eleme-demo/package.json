@@ -1,41 +1,7 @@
 {
-  "name": "umi-ele-demo",
-  "version": "0.0.1",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "dev": "cross-env PORT=9090 umi dev",
-    "dev:test": "cross-env PORT=9090 WATCH_FILES=none BROWSER=none CLEAR_CONSOLE=none COMPILE_ON_DEMAND=none COVERAGE=true umi dev",
-    "build": "umi build",
-    "test": "macaca run -d ./test",
-    "serve": "npm run dev:test &",
-    "lint": "eslint --fix --ext .js,.jsx .",
-    "ci": "npm run lint && npm run serve && npm test"
-  },
-  "author": "zhang740@vmzclub.com",
-  "license": "MIT",
   "dependencies": {
-    "react-sticky": "^6.0.1"
-  },
-  "devDependencies": {
-    "babel-plugin-istanbul": "^4.1.6",
-    "babel-preset-es2015": "^6.24.1",
-    "babel-preset-react": "^6.24.1",
-    "babel-preset-stage-1": "^6.24.1",
-    "chai": "^4.1.2",
-    "cross-env": "^5.1.4",
-    "eslint": "^4.10.0",
-    "eslint-config-umi": "^0.1.2",
-    "eslint-plugin-flowtype": "^2.42.0",
-    "eslint-plugin-import": "^2.8.0",
-    "eslint-plugin-jsx-a11y": "^5.1.1",
-    "eslint-plugin-mocha": "^5.0.0",
-    "eslint-plugin-react": "^7.6.1",
-    "macaca-cli": "2",
-    "macaca-datahub": "2",
-    "macaca-electron": "2",
-    "macaca-wd": "*",
-    "umi": "^1.2.6",
+    "react-sticky": "^6.0.1",
+    "umi-plugin-react": "^1.0.0-beta.17",
     "umi-plugin-datahub": "2"
   }
 }

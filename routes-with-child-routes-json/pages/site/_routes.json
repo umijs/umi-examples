@@ -1,7 +1,0 @@
-[
-  {
-    "path": "/site/b",
-    "exact": true,
-    "component": "./pages/site/a"
-  }
-]
