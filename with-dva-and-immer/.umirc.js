@@ -1,3 +1,10 @@
 export default {
-  plugins: [['umi-plugin-dva', { immer: true }]],
+  plugins: [
+    ['umi-plugin-react', {
+      antd: true,
+      dva: {
+        immer: true,
+      },
+    }],
+  ],
 };

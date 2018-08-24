@@ -1,6 +1,5 @@
-import Link from "umi/link";
-import { Button } from "antd-mobile";
 import styles from "./index.scss";
+
 export default () => (
   <div>
     <div className={styles.container}>

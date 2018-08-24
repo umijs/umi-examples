@@ -1,5 +1,9 @@
 export default {
-  exportStatic: false,
+  plugins: [
+    ['umi-plugin-react', {
+      antd: true,
+    }],
+  ],
   routes: [
     {
       path: '/',

@@ -1,11 +1,13 @@
 const path = require('path');
 
 export default {
-  hd: true,
   exportStatic: {
     htmlSuffix: true,
   },
   plugins: [
+    ['umi-plugin-react', {
+      hd: true,
+    }],
     ['umi-plugin-datahub', {
       proxy: {
         '^/restapi': {
@@ -15,6 +17,4 @@ export default {
       store: path.join(__dirname, 'data'),
     }],
   ],
-  disableServiceWorker: true,
-  disableDynamicImport: !!process.env.COVERAGE,
 };
