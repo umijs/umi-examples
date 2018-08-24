@@ -23,5 +23,8 @@ export default {
       exact: true,
       component: 'c',
     },
+    {
+      component: 'd',
+    },
   ],
 };
