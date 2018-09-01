@@ -1,0 +1,11 @@
+{
+  "dependencies": {
+    "dva": "^2.4.0",
+    "react": "^16.4.2",
+    "react-dom": "^16.4.2"
+  },
+  "devDependencies": {
+    "umi": "^2.0.0-0",
+    "umi-plugin-react": "^1.0.0-0"
+  }
+}
