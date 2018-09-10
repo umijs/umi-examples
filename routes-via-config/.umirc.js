@@ -13,6 +13,7 @@ export default {
     {
       path: '/list',
       component: 'b',
+      Routes: ['./routes/PrivateRoute.js']
     },
     {
       path: '/redirect',
