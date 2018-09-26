@@ -3,6 +3,7 @@ dist
 package-lock.json
 func-test/www
 .umi
+.umi-production
 *.sw*
 *.un~
 config.local.js
