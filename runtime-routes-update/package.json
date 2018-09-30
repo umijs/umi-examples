@@ -1,5 +1,9 @@
 {
+  "scripts": {
+    "start": "umi dev"
+  },
   "dependencies": {
-    "lodash.remove": "^4.7.0"
+    "lodash.remove": "^4.7.0",
+    "umi": "^2.1.1"
   }
 }
