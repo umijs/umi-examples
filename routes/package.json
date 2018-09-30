@@ -1,9 +1,13 @@
 {
+  "scripts": {
+    "start": "umi dev"
+  },
   "devDependencies": {
     "umi-plugin-react": "^1.0.0-0"
   },
   "dependencies": {
     "react-router-breadcrumbs-hoc": "^2.1.0",
-    "react-transition-group": "^2.3.1"
+    "react-transition-group": "^2.3.1",
+    "umi": "^2.1.1"
   }
 }
