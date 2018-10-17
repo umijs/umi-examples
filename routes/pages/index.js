@@ -12,6 +12,7 @@ export default () =>
       <li><Link to="/routes-dont-exists">/routes-dont-exists</Link></li>
       <li><Link to="/animated-transitions">/animated-transitions</Link></li>
       <li><Link to="/scroll-to-top/a">/scroll-to-top/a</Link></li>
+      <li><Link to="/prompt">/prompt</Link></li>
       <li><Link to="/exclude">/exclude (which will show the 404 page)</Link></li>
     </ul>
   </div>
