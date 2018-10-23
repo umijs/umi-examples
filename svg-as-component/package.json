@@ -1,1 +1,5 @@
-{}
+{
+  "dependencies": {
+    "react-test-renderer": "^16.5.2"
+  }
+}
