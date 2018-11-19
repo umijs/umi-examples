@@ -13,34 +13,27 @@ let authRoutes = null;
 let serveRoutes = null;
 
 export function patchRoutes(routes) {
-  for (let key = 0; key < routes.length; key++) {
+
+  routes.forEach(element => {
     //add route
     serveRoutes.map(sr => {
-      if (routes[key].path === sr.path) {
+      if (element.path === sr.path) {
         sr.addRoutes.map(srItem => {
           const newRoute = {
             path: srItem.path,
             component: require('./pages' + srItem.path).default,
           };
-          routes[key].routes && routes[key].routes.unshift(newRoute);
+          element.routes && element.routes.unshift(newRoute);
         });
       }
     });
     //add auth
-    routes[key] = {
-      ...routes[key],
-      ...(authRoutes[routes[key].path] || {}),
-    };
-    routes[key].routes = routes[key].routes
-      ? routes[key].routes.map(route => {
-          route = {
-            ...route,
-            ...(authRoutes[routes[key].path] || {}),
-          };
-          return route;
-        })
-      : routes[key].routes;
-  }
+    Object.assign(element,authRoutes[element.path] || {})
+    element.routes &&
+      element.routes.forEach(route => {
+        Object.assign(route,authRoutes[element.path] || {})
+      });
+  });
   window.g_routes = routes;
 }
 
