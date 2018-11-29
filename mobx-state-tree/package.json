@@ -10,11 +10,14 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "mobx": "^5.5.0",
-    "mobx-react": "^5.2.8",
-    "mobx-state-tree": "^3.5.0",
-    "umi": "^2.1.2",
+    "mobx": "^5.6.0",
+    "mobx-react": "^5.4.2",
+    "mobx-state-tree": "^3.8.1",
+    "umi": "^2.2.7",
     "umi-plugin-mobx-state-tree": "^0.0.1",
-    "umi-plugin-react": "^1.1.1"
+    "umi-plugin-react": "^1.2.3"
+  },
+  "resolutions": {
+    "ajv": "6.5.4"
   }
 }
