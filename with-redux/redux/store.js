@@ -21,3 +21,5 @@ export function registerReducer(key, reducer) {
   reducers[key] = reducer;
   store.replaceReducer(combineReducers(reducers));
 }
+
+window.isMobile = /applewebkit.*mobile.*/.test(window.navigator.userAgent.toLowerCase());

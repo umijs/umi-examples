@@ -1,21 +1,23 @@
-import router from 'umi/router';
-import { connect } from 'react-redux';
-import { Component } from '../components/base';
-import { List, WhiteSpace, Stepper } from 'antd-mobile';
-import Link from 'umi/link';
+import router from "umi/router";
+import { connect } from "react-redux";
+import { Component } from "../components/base";
+import { List, WhiteSpace, Stepper } from "antd-mobile";
+import Link from "umi/link";
 
-import { updateValue } from '../redux/action';
+import { updateValue } from "../redux/action";
+
+import Count from "../components/Count";
 
 const Item = List.Item;
 
 @connect(state => ({
-  value: state.global.value,
+  value: state.global.value
 }))
 export default class IndexPage extends Component {
   gotoExtInfoPage = () => {
     router.push({
-      pathname: '/extinfo',
-      query: { id: 123 },
+      pathname: "/extinfo",
+      query: { id: 123 }
     });
   };
 
@@ -31,17 +33,13 @@ export default class IndexPage extends Component {
         <List>
           <Link
             to={{
-              pathname: '/extinfo',
-              search: '?test=123',
+              pathname: "/extinfo",
+              search: "?test=123"
             }}
           >
             <Item>链接跳转</Item>
           </Link>
-          <Item
-            extra="扩展信息"
-            arrow="horizontal"
-            onClick={this.gotoExtInfoPage}
-          >
+          <Item extra="扩展信息" arrow="horizontal" onClick={this.gotoExtInfoPage}>
             路由跳转
           </Item>
         </List>
@@ -50,10 +48,12 @@ export default class IndexPage extends Component {
           wrap
           extra={
             <Stepper
-              style={{ width: '100%', minWidth: '100px' }}
-              showNumber
+              style={{ width: "100%", minWidth: "100px" }}
+              showNumber={true}
+              defaultValue={0}
               max={10}
               min={1}
+              step={1}
               value={value}
               onChange={this.onChange}
             />
@@ -61,6 +61,12 @@ export default class IndexPage extends Component {
         >
           数值
         </List.Item>
+        <WhiteSpace />{
+          !window.isMobile&&<div style={{background:"#fff",fontSize:'24px'}}>因为在电脑上mobile的步进器组件按钮失效,所以我随便放了个组件。如果不想看到这个，你可以开启手机调试模式。
+          <Count value={value} onChange={this.onChange} />
+          </div>
+        }
+        
       </div>
     );
   }
