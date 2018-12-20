@@ -15,7 +15,8 @@
     "macaca-datahub": "2",
     "macaca-electron": "2",
     "macaca-wd": "*",
-    "umi": "^1.2.6"
+    "umi": "^2.2.8",
+    "umi-plugin-react": "^1.2.3"
   },
   "scripts": {
     "dev": "cross-env PORT=9090 umi dev",
