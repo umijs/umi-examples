@@ -1,10 +1,6 @@
 import { GlobalState } from "@/common/type";
-import { actionCreatorFactory, DvaModelBuilder } from "dva-model-creator";
-
-const actionCreator = actionCreatorFactory("counter");
-
-const add = actionCreator("add");
-const minus = actionCreator("minus");
+import { DvaModelBuilder } from "dva-model-creator";
+import { add, minus } from "@/actions/counter";
 
 const initState: GlobalState["counter"] = {
   number: 0
