@@ -1,7 +1,11 @@
 {
+  "scripts": {
+    "start": "umi dev"
+  },
   "dependencies": {
     "@types/jest": "^23.3.5",
     "dva": "^2.4.0",
+    "dva-model-creator": "^0.0.4",
     "react": "^16.4.2",
     "react-dom": "^16.4.2"
   },
