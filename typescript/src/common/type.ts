@@ -1,4 +1,4 @@
-import { Dispatch } from "react";
+import { Dispatch } from "redux";
 import { History } from "history";
 
 interface CounterModel {
