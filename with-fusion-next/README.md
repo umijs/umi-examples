@@ -1,7 +1,7 @@
 
 # with-fusion-next
 
-这是 umi + fusion next 的例子。
+这是 umi + [fusion next](https://github.com/alibaba-fusion/next) 的例子。
 
 ## 使用步骤
 
