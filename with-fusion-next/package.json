@@ -1,0 +1,6 @@
+{
+  "devDependencies": {
+    "@alifd/next": "^1.17.10",
+    "babel-plugin-import": "^1.12.1"
+  }
+}
