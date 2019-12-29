@@ -36,7 +36,7 @@ export default class extends Component {
   }
 
   loadMenu = (id) => {
-    fetch(`/restapi/shopping/v2/menu?restaurant_id=${id}`)
+    fetch(`/shopping/v2/menu?restaurant_id=${id}`)
       .then(res => {
         if (res.status === 200) {
           res.json().then(data => {
@@ -53,7 +53,7 @@ export default class extends Component {
 
   loadInfo = (id) => {
     const { longitude, latitude } = this.props.location.query;
-    fetch(`/restapi/shopping/restaurant/${id}?extras[]=activities&extras[]=albums&extras[]=license&extras[]=identification&extras[]=qualification&terminal=h5&latitude=${latitude}&longitude=${longitude}`)
+    fetch(`/shopping/restaurant/${id}?extras[]=activities&extras[]=albums&extras[]=license&extras[]=identification&extras[]=qualification&terminal=h5&latitude=${latitude}&longitude=${longitude}`)
       .then(res => {
         if (res.status === 200) {
           res.json().then(data => {

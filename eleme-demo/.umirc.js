@@ -10,7 +10,10 @@ export default {
     }],
     ['umi-plugin-datahub', {
       proxy: {
-        '^/restapi': {
+        '^/shopping': {
+          hub: 'eleme-demo',
+        },
+        '^/bgs': {
           hub: 'eleme-demo',
         },
       },
