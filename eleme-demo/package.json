@@ -1,7 +1,7 @@
 {
   "dependencies": {
     "react-sticky": "^6.0.1",
-    "umi-plugin-datahub": "4.0.0-beta.1",
+    "umi-plugin-datahub": "4",
     "umi-plugin-react": "^1.14.10"
   },
   "scripts": {
